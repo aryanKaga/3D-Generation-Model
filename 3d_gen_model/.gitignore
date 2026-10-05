@@ -1,0 +1,60 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+myenv/
+.tox/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+pip-wheel-metadata/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project-generated model and data artifacts
+.nyxus/
+best_saved_models/
+model/checkpoints/
+filtered_point_cloud.npy
+model/generated_pointcloud.npy
+modelx.glb
+training_progress.png
+nyxus_auto_memory.txt
+
+# Common ML / data artifacts
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+lightning_logs/
+runs/
+wandb/
+*.log
